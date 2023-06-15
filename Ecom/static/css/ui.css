@@ -248,7 +248,7 @@ article:after,
 }
 
 .bg-orange {
-  background-color: #036817;
+  background-color: #ff9017;
 }
 
 .bg-green {
@@ -604,11 +604,11 @@ p:last-child {
   border-color: #e4e4e4;
 }
 .btn-light i {
-  color: #036817;
+  color: #969696;
 }
 .btn-light:hover {
-  background-color: #F1E5AC;
-  border-color: #036817;
+  background-color: #fff;
+  border-color: #989898;
 }
 
 .btn .text + i {
@@ -640,7 +640,7 @@ p:last-child {
   color: #212529;
 }
 .itemside a.title:hover {
-  color: #036817;
+  color: #3167eb;
 }
 
 a.itemside {
@@ -832,7 +832,7 @@ a[class*=card]:hover .title {
   display: block;
 }
 [class*=card-product] a.title:hover {
-  color: #036817;
+  color: #3167eb;
 }
 [class*=card-product] .badge {
   top: 10px;
@@ -884,7 +884,7 @@ a[class*=card]:hover .title {
   color: #ccc;
 }
 .card-product-grid .topbar a:hover {
-  color: #036817;
+  color: #3167eb;
 }
 .card-product-grid .fix-height {
   height: 80px;
@@ -1287,8 +1287,8 @@ a[class*=card]:hover .title {
   opacity: 0;
 }
 .checkbox-btn input:checked ~ .btn {
-  border-color: #036817;
-  background-color: #036817;
+  border-color: #3167eb;
+  background-color: #3167eb;
   color: #fff;
 }
 
@@ -1304,8 +1304,8 @@ a[class*=card]:hover .title {
   opacity: 0;
 }
 .btn-check input:checked ~ .btn {
-  border-color: #036817;
-  background-color: #036817;
+  border-color: #3167eb;
+  background-color: #3167eb;
   color: #fff;
 }
 .btn-check:hover:not(.active) {
