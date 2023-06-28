@@ -13,7 +13,7 @@
     <div class="card">
    <div class="class-body">
     <h4 class="card-title mb-4">Billing Address</h4>
-    <form action="" method="POST">
+    <form action="{% url 'place_order' %}" method="POST">
         {% csrf_token %}
         <div class="form-row">
             <div class="col form-group">
@@ -33,7 +33,7 @@
             </div>
             <div class="col form-group">
                 <label for="">Phone Number</label>
-                <input type="text" name="phone_number" class="form-control" required>
+                <input type="text" name="phone" class="form-control" required>
             </div>
         </div>
 
@@ -122,7 +122,7 @@
                     </table>
                 <button type="submit" name="submit" class="btn btn-success btn-block"> Place Order</button>
                 <a href="{% url 'store' %}" class="btn btn-light btn-block">Continue Shopping</a>
-            </form>
+        </form>
             </div> <!-- card-body.// -->
             </div> <!-- card.// -->
         
